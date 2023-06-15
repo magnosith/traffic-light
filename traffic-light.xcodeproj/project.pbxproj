@@ -16,6 +16,8 @@
 		3FEE56172A3A9271008F4CFF /* traffic_lightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEE56162A3A9271008F4CFF /* traffic_lightTests.swift */; };
 		3FEE56212A3A9271008F4CFF /* traffic_lightUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEE56202A3A9271008F4CFF /* traffic_lightUITests.swift */; };
 		3FEE56232A3A9271008F4CFF /* traffic_lightUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEE56222A3A9271008F4CFF /* traffic_lightUITestsLaunchTests.swift */; };
+		3FEE56302A3A92AE008F4CFF /* trafficLightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEE562F2A3A92AE008F4CFF /* trafficLightViewController.swift */; };
+		3FEE56322A3A9487008F4CFF /* trafficLightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEE56312A3A9487008F4CFF /* trafficLightView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		3FEE561C2A3A9271008F4CFF /* traffic-lightUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "traffic-lightUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FEE56202A3A9271008F4CFF /* traffic_lightUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = traffic_lightUITests.swift; sourceTree = "<group>"; };
 		3FEE56222A3A9271008F4CFF /* traffic_lightUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = traffic_lightUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3FEE562F2A3A92AE008F4CFF /* trafficLightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trafficLightViewController.swift; sourceTree = "<group>"; };
+		3FEE56312A3A9487008F4CFF /* trafficLightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trafficLightView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 		3FEE55F32A3A926E008F4CFF = {
 			isa = PBXGroup;
 			children = (
+				3FEE56312A3A9487008F4CFF /* trafficLightView.swift */,
+				3FEE562F2A3A92AE008F4CFF /* trafficLightViewController.swift */,
 				3FEE55FE2A3A926E008F4CFF /* traffic-light */,
 				3FEE56152A3A9271008F4CFF /* traffic-lightTests */,
 				3FEE561F2A3A9271008F4CFF /* traffic-lightUITests */,
@@ -259,7 +265,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FEE56042A3A926E008F4CFF /* ViewController.swift in Sources */,
+				3FEE56322A3A9487008F4CFF /* trafficLightView.swift in Sources */,
 				3FEE56002A3A926E008F4CFF /* AppDelegate.swift in Sources */,
+				3FEE56302A3A92AE008F4CFF /* trafficLightViewController.swift in Sources */,
 				3FEE56022A3A926E008F4CFF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
